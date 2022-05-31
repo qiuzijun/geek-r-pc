@@ -1,0 +1,17 @@
+.ant-spin-container {
+  position: relative;
+  .ant-table-pagination {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+.ant-upload-list {
+  padding: 10px;
+}
+.ant-col-offset-8 {
+  margin-left: 0;
+  .ant-btn {
+    margin-right: 20px;
+  }
+}

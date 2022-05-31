@@ -1,0 +1,12 @@
+.nav {
+  padding: 0 16px;
+  float: right;
+  .out {
+    margin-left: 20px;
+    &:hover {
+      color: #1890ff;
+      transition: color 0.2s ease;
+      cursor: pointer;
+    }
+  }
+}

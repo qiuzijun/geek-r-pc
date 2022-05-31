@@ -1,0 +1,69 @@
+.panel {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  .visits {
+    margin-bottom: 20px;
+    .visitsContent {
+      display: flex;
+      .visitsChar {
+        width: 75%;
+        height: 300px;
+      }
+      .ranking {
+        width: 25%;
+        max-height: 300px;
+        overflow: auto;
+        ul {
+          padding: 0;
+          li {
+            padding: 2px 5px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .king_name {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              .king {
+                width: 15px;
+                height: 15px;
+                color: black;
+                text-align: center;
+                line-height: 15px;
+              }
+              .name {
+                margin-left: 15px;
+              }
+            }
+            &:hover {
+              background-color: rgba(87, 204, 240, 0.2);
+              transition: all 0.3s ease;
+              cursor: pointer;
+            }
+          }
+          li:nth-child(1),
+          li:nth-child(2),
+          li:nth-child(3) {
+            .king_name {
+              .king {
+                color: white;
+                border-radius: 50%;
+                background-color: #314659;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .release {
+    width: 100%;
+    margin-bottom: 20px;
+    .releaseChar {
+      height: 300px;
+    }
+  }
+}

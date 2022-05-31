@@ -1,0 +1,22 @@
+{
+  "data": {
+    "result": [
+      {
+        "name": "HTML",
+        "releasePieceCount": 10
+      },
+      {
+        "name": "Vue",
+        "releasePieceCount": 25
+      },
+      {
+        "name": "React",
+        "releasePieceCount": 7
+      },
+      {
+        "name": "SASS",
+        "releasePieceCount": 2
+      }
+    ]
+  }
+}

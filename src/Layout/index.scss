@@ -1,0 +1,27 @@
+.ant-layout {
+  height: 100%;
+  .logo {
+    height: 32px;
+    margin: 16px;
+    img {
+      height: 100%;
+    }
+  }
+  .ant-layout-header {
+    padding: 0 50px;
+  }
+  .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+    &:hover {
+      color: #1890ff;
+    }
+  }
+}
+.site-layout .site-layout-background {
+  padding: none;
+  background: #fff;
+}

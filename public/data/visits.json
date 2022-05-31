@@ -1,0 +1,22 @@
+{
+  "data": {
+    "visits": [
+      {
+        "name": "HTML",
+        "count": 594756
+      },
+      {
+        "name": "Vue",
+        "count": 645756
+      },
+      {
+        "name": "React",
+        "count": 255456
+      },
+      {
+        "name": "SASS",
+        "count": 26546
+      }
+    ]
+  }
+}

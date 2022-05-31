@@ -1,0 +1,15 @@
+.login-form{
+
+    .checked{
+        .ant-form-item-control-input-content{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .sendCode{
+        margin-left: 20px;
+    }
+    .login-form-button{
+        width: 100%;
+    }
+}
